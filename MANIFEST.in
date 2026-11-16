@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include quickcommerce *.css
+recursive-include quickcommerce *.csv
+recursive-include quickcommerce *.html
+recursive-include quickcommerce *.ico
+recursive-include quickcommerce *.js
+recursive-include quickcommerce *.json
+recursive-include quickcommerce *.md
+recursive-include quickcommerce *.png
+recursive-include quickcommerce *.py
+recursive-include quickcommerce *.svg
+recursive-include quickcommerce *.txt
+recursive-exclude quickcommerce *.pyc

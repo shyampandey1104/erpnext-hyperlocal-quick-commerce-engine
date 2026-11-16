@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "erpnext_hyperlocal_quick_commerce_engine"
+version = "1.0.0"
+description = "Erpnext Hyperlocal Quick Commerce Engine - Official Frappe Framework App"
+authors = [{ name = "Shyamkumar Pandey", email = "shyampandey1104@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "frappe"
+]
